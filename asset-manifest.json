@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ZinTech/static/css/main.bab0b925.chunk.css",
+    "main.js": "/ZinTech/static/js/main.40dab1cf.chunk.js",
+    "main.js.map": "/ZinTech/static/js/main.40dab1cf.chunk.js.map",
+    "runtime-main.js": "/ZinTech/static/js/runtime-main.9c417570.js",
+    "runtime-main.js.map": "/ZinTech/static/js/runtime-main.9c417570.js.map",
+    "static/js/2.daff038b.chunk.js": "/ZinTech/static/js/2.daff038b.chunk.js",
+    "static/js/2.daff038b.chunk.js.map": "/ZinTech/static/js/2.daff038b.chunk.js.map",
+    "static/js/3.ce74571c.chunk.js": "/ZinTech/static/js/3.ce74571c.chunk.js",
+    "static/js/3.ce74571c.chunk.js.map": "/ZinTech/static/js/3.ce74571c.chunk.js.map",
+    "index.html": "/ZinTech/index.html",
+    "static/css/main.bab0b925.chunk.css.map": "/ZinTech/static/css/main.bab0b925.chunk.css.map",
+    "static/js/2.daff038b.chunk.js.LICENSE.txt": "/ZinTech/static/js/2.daff038b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c417570.js",
+    "static/js/2.daff038b.chunk.js",
+    "static/css/main.bab0b925.chunk.css",
+    "static/js/main.40dab1cf.chunk.js"
+  ]
+}
