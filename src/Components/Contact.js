@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Fade, Slide } from 'react-reveal';
+import emailjs from '@emailjs/browser';
+require('dotenv').config();
 
 class Contact extends Component {
 	constructor() {
@@ -10,17 +12,25 @@ class Contact extends Component {
 			contactSubject: '',
 			contactMessage: '',
 		};
+
+		this.onSend = this.onSend.bind(this);
 	}
 
-	onSend() {
-		const { contactName } = this.state;
-		const { contactEmail } = this.state;
-		const { contactSubject } = this.state;
-		const { contactMessage } = this.state;
+	onSend(e) {
+		e.preventDefault();
+
+		const { contactName, contactEmail, contactSubject, contactMessage } =
+			this.state;
+
 		console.log([contactName, contactEmail, contactSubject, contactMessage]);
-		// sendEmail(contactName);
-	}
 
+		emailjs.sendForm(
+			'service_d9j84rj',
+			'template_osufmur',
+			e.target,
+			'-uRNut99FVaIlzjuu'
+		);
+	}
 	render() {
 		if (!this.props.data) return null;
 
@@ -51,12 +61,10 @@ class Contact extends Component {
 				<div className="row">
 					<Slide left duration={1000}>
 						<div className="eight columns">
-							<form id="contactForm" name="contactForm">
+							<form id="contactForm" name="contactForm" onSubmit={this.onSend}>
 								<fieldset>
 									<div>
-										<label htmlFor="contactName">
-											ФИО <span className="required">*</span>
-										</label>
+										<label htmlFor="contactName">ФИО</label>
 										<input
 											type="text"
 											defaultValue=""
@@ -70,9 +78,7 @@ class Contact extends Component {
 									</div>
 
 									<div>
-										<label htmlFor="contactEmail">
-											Email <span className="required">*</span>
-										</label>
+										<label htmlFor="contactEmail">Ваша почта</label>
 										<input
 											type="text"
 											defaultValue=""
@@ -114,11 +120,7 @@ class Contact extends Component {
 									</div>
 
 									<div>
-										<button
-											onClick={() => this.onSend()}
-											id="butt"
-											type="submit"
-											className="submit">
+										<button type="submit" id="butt" className="submit">
 											Submit
 										</button>
 										<span id="image-loader">
