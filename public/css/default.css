@@ -115,6 +115,10 @@ video {
 	background: transparent;
 }
 
+::-webkit-scrollbar {
+	display: none;
+}
+
 article,
 aside,
 details,
@@ -1174,4 +1178,8 @@ properly.
 	margin-left: auto !important;
 	margin-right: auto !important;
 	text-align: center !important;
+}
+
+.example::-webkit-scrollbar {
+	display: none;
 }

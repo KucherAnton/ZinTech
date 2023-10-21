@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Fade, Slide } from 'react-reveal';
 import emailjs from '@emailjs/browser';
+import Swal from 'sweetalert2';
 require('dotenv').config();
 
 class Contact extends Component {
@@ -19,10 +20,8 @@ class Contact extends Component {
 	onSend(e) {
 		e.preventDefault();
 
-		const { contactName, contactEmail, contactSubject, contactMessage } =
-			this.state;
-
-		console.log([contactName, contactEmail, contactSubject, contactMessage]);
+		// const { contactName, contactEmail, contactSubject, contactMessage } =
+		// 	this.state;
 
 		emailjs.sendForm(
 			'service_d9j84rj',
@@ -30,7 +29,18 @@ class Contact extends Component {
 			e.target,
 			'-uRNut99FVaIlzjuu'
 		);
+
+		setTimeout(() => {
+			Swal.fire({
+				position: 'center',
+				icon: 'success',
+				title: 'Сообщение отправлено',
+				showConfirmButton: false,
+				timer: 1500,
+			});
+		}, 400);
 	}
+
 	render() {
 		if (!this.props.data) return null;
 
