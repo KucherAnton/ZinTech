@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.js": "/ZinTech/static/js/main.65865c87.chunk.js",
-    "main.js.map": "/ZinTech/static/js/main.65865c87.chunk.js.map",
-    "runtime-main.js": "/ZinTech/static/js/runtime-main.19845304.js",
-    "runtime-main.js.map": "/ZinTech/static/js/runtime-main.19845304.js.map",
-    "static/js/2.47d41321.chunk.js": "/ZinTech/static/js/2.47d41321.chunk.js",
-    "static/js/2.47d41321.chunk.js.map": "/ZinTech/static/js/2.47d41321.chunk.js.map",
-    "static/js/3.5d329ddc.chunk.js": "/ZinTech/static/js/3.5d329ddc.chunk.js",
-    "static/js/3.5d329ddc.chunk.js.map": "/ZinTech/static/js/3.5d329ddc.chunk.js.map",
+    "main.js": "/ZinTech/static/js/main.a915e83e.chunk.js",
+    "main.js.map": "/ZinTech/static/js/main.a915e83e.chunk.js.map",
+    "runtime-main.js": "/ZinTech/static/js/runtime-main.c8f22ac6.js",
+    "runtime-main.js.map": "/ZinTech/static/js/runtime-main.c8f22ac6.js.map",
+    "static/js/2.3012605d.chunk.js": "/ZinTech/static/js/2.3012605d.chunk.js",
+    "static/js/2.3012605d.chunk.js.map": "/ZinTech/static/js/2.3012605d.chunk.js.map",
+    "static/js/3.5f6c0640.chunk.js": "/ZinTech/static/js/3.5f6c0640.chunk.js",
+    "static/js/3.5f6c0640.chunk.js.map": "/ZinTech/static/js/3.5f6c0640.chunk.js.map",
     "index.html": "/ZinTech/index.html",
-    "static/js/2.47d41321.chunk.js.LICENSE.txt": "/ZinTech/static/js/2.47d41321.chunk.js.LICENSE.txt"
+    "static/js/2.3012605d.chunk.js.LICENSE.txt": "/ZinTech/static/js/2.3012605d.chunk.js.LICENSE.txt",
+    "static/media/telegram.a75fda8d.svg": "/ZinTech/static/media/telegram.a75fda8d.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.19845304.js",
-    "static/js/2.47d41321.chunk.js",
-    "static/js/main.65865c87.chunk.js"
+    "static/js/runtime-main.c8f22ac6.js",
+    "static/js/2.3012605d.chunk.js",
+    "static/js/main.a915e83e.chunk.js"
   ]
 }

@@ -1,12 +1,12 @@
 {
 	"main": {
 		"name": "ЗИНТЕХ",
-		"description": "Наша компания блабла крутая пиздец блабла и все такое",
+		"description": "Инновации для безопасного будущего!",
 		"image": "profilepic.jpg",
-		"bio": "Много интересной инфы и все такое",
+		"bio": "«Зиновьев Корпорация» - инновационная компания, специализирующаяся на разработке и производстве продукции военного, медицинского и туристического назначения. Мы стремимся предложить передовые решения, которые обеспечивают безопасность, комфорт и качество жизни наших клиентов.",
 		"contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-		"email": "youremailhere@gmail.com",
-		"phone": "555-555-5555",
+		"email": "slavazinovev3421@gmail.com",
+		"phone": "+7 (989) 512-98-07",
 		"github": "https://github.com/KucherAnton/ZinTech/",
 		"project": "https://github.com/nordicgiant2/react-nice-resume",
 		"address": {
@@ -16,37 +16,22 @@
 			"zip": "(Your Zip/Postal Code)"
 		},
 		"website": "http://www.timbakerdev.com",
-		"resumedownload": "http://timbakerdev.com",
+		"resumedownload": "https://vk.com/id438116567",
 		"social": [
 			{
-				"name": "facebook",
-				"url": "https://github.com/nordicgiant2/react-nice-resume",
-				"className": "fa fa-facebook"
-			},
-			{
-				"name": "twitter",
-				"url": "http://twitter.com",
-				"className": "fa fa-twitter"
-			},
-			{
-				"name": "linkedin",
-				"url": "https://www.linkedin.com/in/tim-baker-8420009a/",
-				"className": "fa fa-linkedin"
-			},
-			{
-				"name": "instagram",
-				"url": "http://instagram.com/tbaker_x",
-				"className": "fa fa-instagram"
+				"name": "vk",
+				"url": "https://vk.com/club223699781",
+				"className": "fa fa-vk"
 			},
 			{
 				"name": "github",
-				"url": "https://github.com/nordicgiant2/react-nice-resume",
+				"url": "https://github.com/KucherAnton/ZinTech/",
 				"className": "fa fa-github"
 			}
 		]
 	},
 	"resume": {
-		"skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+		"skillmessage": "Наши товары лучше блабла или еще че нибудь там",
 		"education": [
 			{
 				"school": "University?",
@@ -77,20 +62,20 @@
 		],
 		"skills": [
 			{
-				"name": "Python",
+				"name": "Качество",
 				"level": "60%"
 			},
 			{
-				"name": "VueJs",
+				"name": "Доступность",
 				"level": "55%"
 			},
 			{
-				"name": "ReactJs",
-				"level": "50%"
+				"name": "Цена",
+				"level": "100%"
 			},
 			{
-				"name": "CSS",
-				"level": "90%"
+				"name": "НАШИ ТОВАРЫ ПИЗДАТЫЕ!!!!!!",
+				"level": "200%"
 			},
 			{
 				"name": "PHP",
