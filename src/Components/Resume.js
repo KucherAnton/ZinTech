@@ -4,11 +4,28 @@ import { Card, Image } from 'antd';
 
 class Resume extends Component {
 	getRandomColor() {
-		let letters = '0123456789ABCDEF';
+		let blue = [
+			'0000FF',
+			'002F55',
+			'1560BD',
+			'1E90FF',
+			'1164B4',
+			'0047AB',
+			'007FFF',
+			'003366',
+			'20155E',
+			'082567',
+			'1E2460',
+			'007DFF',
+			'1F75FE',
+			'122FAA',
+			'0067A5',
+			'42AAFF',
+			'6A5ACD',
+		];
 		let color = '#';
-		for (let i = 0; i < 6; i++) {
-			color += letters[Math.floor(Math.random() * 16)];
-		}
+
+		color += blue[Math.floor(Math.random() * blue.length)];
 		return color;
 	}
 
