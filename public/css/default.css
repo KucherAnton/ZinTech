@@ -1189,23 +1189,13 @@ properly.
 	justify-content: center; /* Центрирование по горизонтали */
 	align-items: center;
 	flex-direction: column;
-	margin-bottom: 50px;
+	gap: 30px;
 }
-.cards1 {
-	display: flex;
-	justify-content: center; /* Центрирование по горизонтали */
-	align-items: center;
-	flex-direction: row;
-	margin-bottom: 50px;
-	gap: 400px;
-}
-.cards2 {
-	display: flex;
-	justify-content: center; /* Центрирование по горизонтали */
-	align-items: center;
-	flex-direction: row;
-	margin-bottom: 50px;
-	gap: 150px;
+
+@media (min-width: 768px) {
+	.cards {
+		flex-direction: row; /* На широких экранах возвращаемся к расположению в ряд */
+	}
 }
 
 .card-container {
@@ -1213,18 +1203,56 @@ properly.
 	flex-wrap: wrap;
 	justify-content: center; /* Центрирование по горизонтали */
 	align-items: center; /* Центрирование по вертикали */
-	max-width: 1000px; /* Максимальная ширина контейнера */
+	max-width: 100%; /* Максимальная ширина контейнера */
 	margin: 0 auto; /* Центрирование контейнера на странице */
 	padding-top: 10px;
 }
 
 /* Стили для каждой карточки */
 .card {
-	width: 300px; /* Ширина карточки */
-	margin: 20px; /* Внешние отступы карточки */ /* Внутренние отступы карточки */
+	width: 100%;
+	max-width: 387px; /* Ширина карточки */
+	margin: 20px;
+	margin-bottom: 70px; /* Внешние отступы карточки */ /* Внутренние отступы карточки */
 	border: 1px solid #ccc; /* Граница карточки */
 	border-radius: 8px; /* Скругление углов */
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень карточки */
+}
+
+.upper-text {
+	display: flex;
+	justify-content: center;
+}
+
+.center-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 70px;
+	margin-right: 110px;
+}
+
+.bottom-button {
+	display: inline-block;
+	width: 200%;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+.bottom-button:hover {
+	background-color: #0056b3;
+	color: #fff;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 .ant-card-head-title {
@@ -1241,6 +1269,12 @@ h4 {
 .ant-card-body {
 	display: flex;
 	flex-direction: column;
+	margin-top: -20px;
+}
+
+.upper-text {
+	margin-bottom: 10px;
+	opacity: 70%;
 }
 
 /* Стили для изображения товара внутри карточки */
@@ -1251,19 +1285,21 @@ Img {
 }
 
 .white-circle {
-	width: 120px; /* Ширина круга */
-	height: 120px; /* Высота круга */
-	background-color: white; /* Цвет фона (белый) */
-	border-radius: 50%; /* 50% для создания круга */
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
+	width: 120px; /* Размер контейнера (диаметр круга) */
+	height: 120px;
+	border-radius: 50%; /* Делаем контейнер круглым */
+	background-color: #ffffff; /* Белый цвет фона */
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень для выделения круга */
 }
 
 /* Стили для заголовка товара */
 .cardText {
 	margin-top: 10px;
 	font-size: 1.4rem;
+	color: #000;
 }
 /* Стили для цены товара */
 .card .price {
@@ -1273,12 +1309,16 @@ Img {
 }
 
 .fa-telegram {
-	width: 28px; /* Ширина иконки */
-	height: 28px; /* Высота иконки */
+	width: 1em; /* Ширина иконки */
+	height: 1em; /* Высота иконки */
 	fill: #525252; /* Цвет заливки (замените на свой цвет) */
 	transition: fill 0.3s ease;
 	cursor: pointer;
-	margin-left: 40px;
+	margin-left: 1.5em;
+}
+
+.fa-vk .fa-github {
+	font-size: 3rem;
 }
 
 .fa-telegram:hover {

@@ -226,8 +226,8 @@ ul#nav li.current a {
 }
 #about .profile-pic {
 	position: relative;
-	width: 90px;
-	height: 92px;
+	max-width: 70%;
+	height: auto;
 	margin-top: 7px;
 }
 #about .contact-details {
@@ -345,7 +345,7 @@ ul#nav li.current a {
 	font: 15px 'opensans-bold', sans-serif;
 	color: #313131;
 	text-transform: uppercase;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	font-weight: normal;
 	position: relative;
 	top: -36px;
@@ -954,6 +954,7 @@ call-to-action .button {
 	font-size: 15px;
 	line-height: 24px;
 	width: 65%;
+	resize: none;
 }
 #contact input:focus,
 #contact textarea:focus,

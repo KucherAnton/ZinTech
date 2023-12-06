@@ -4,7 +4,7 @@
 		"description": "Инновации для безопасного будущего!",
 		"image": "profilepic.jpg",
 		"bio": "«Зиновьев Корпорация» - инновационная компания, специализирующаяся на разработке и производстве продукции военного, медицинского и туристического назначения. Мы стремимся предложить передовые решения, которые обеспечивают безопасность, комфорт и качество жизни наших клиентов.",
-		"contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+		"contactmessage": "Отправьте интересующий вас вопрос, и мы с вами свяжемся!",
 		"email": "slavazinovev3421@gmail.com",
 		"phone": "+7 (989) 512-98-07",
 		"github": "https://github.com/KucherAnton/ZinTech/",
@@ -31,7 +31,7 @@
 		]
 	},
 	"resume": {
-		"skillmessage": "Наши товары лучше блабла или еще че нибудь там",
+		"skillmessage": "Здесь показаны главные свойства нашей продукции:",
 		"education": [
 			{
 				"school": "University?",

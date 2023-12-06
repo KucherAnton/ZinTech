@@ -88,7 +88,9 @@ class Contact extends Component {
 									</div>
 
 									<div>
-										<label htmlFor="contactEmail">Ваша почта</label>
+										<label htmlFor="contactEmail">
+											Ваша почта <span className="required">*</span>
+										</label>
 										<input
 											type="text"
 											defaultValue=""
@@ -116,9 +118,7 @@ class Contact extends Component {
 									</div>
 
 									<div>
-										<label htmlFor="contactMessage">
-											Сообщение <span className="required">*</span>
-										</label>
+										<label htmlFor="contactMessage">Сообщение</label>
 										<textarea
 											cols="50"
 											rows="15"
@@ -131,7 +131,7 @@ class Contact extends Component {
 
 									<div>
 										<button type="submit" id="butt" className="submit">
-											Submit
+											Отправить
 										</button>
 										<span id="image-loader">
 											<img alt="" src="images/loader.gif" />
@@ -151,19 +151,22 @@ class Contact extends Component {
 					<Slide right duration={1000}>
 						<aside className="four columns footer-widgets">
 							<div className="widget widget_contact">
-								<h4>Address and Phone</h4>
+								<h4>Контакты</h4>
 								<p className="address">
-									{name}
+									Зиновьев Вячеслав Романович
 									<br />
+									{/* <br />
 									{street} <br />
 									{city}, {state} {zip}
-									<br />
+									<br /> */}
 									<span>{phone}</span>
+									<br />
+									slavazinovev3421@gmail.com
 								</p>
 							</div>
 
 							<div className="widget widget_tweets">
-								<h4 className="widget-title">Latest Tweets</h4>
+								<h4 className="widget-title">Последние новости</h4>
 								<ul id="twitter">
 									<li>
 										<span>

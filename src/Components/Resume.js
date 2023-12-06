@@ -61,27 +61,82 @@ class Resume extends Component {
 				<div className="cards">
 					<div className="cards1">
 						<Card className="card card-container" title="Медицинская шина">
+							<p className="upper-text">
+								Шина для надежной фиксации повреждений
+							</p>
 							<Image
 								className="cardImage"
 								PreviewType={{ visible: false }}
 								src="https://storage.theoryandpractice.ru/tnp/uploads/image_unit/000/156/586/image/base_87716f252d.jpg"></Image>
 							<h4 className="cardText">
-								Инновационный рюкзак для военных и авантюристов
+								Унифицированная иммобилизационная медицинская шина,
+								разработанная «ЗинМед», представляет собой инновационное
+								медицинское изделие, способное обеспечить надежную фиксацию и
+								защиту поврежденных конечностей. Шина имеет универсальную
+								структуру, которая позволяет использовать ее для фиксации
+								различных типов повреждений, включая переломы и вывихи.
 							</h4>
 						</Card>
 						<Card className="card card-container" title="Носилки скорой помощи">
-							Card content
+							<p className="upper-text">
+								Носилки для транспортировки пострадавших
+							</p>
+							<Image
+								className="cardImage"
+								PreviewType={{ visible: false }}
+								src="https://storage.theoryandpractice.ru/tnp/uploads/image_unit/000/156/586/image/base_87716f252d.jpg"></Image>
+							<h4 className="cardText">
+								Носилки, производимые компанией «ЗинТех», представляют собой
+								инновационное медицинское устройство, разработанное для
+								эффективной и безопасной транспортировки пострадавших. Носилки
+								оснащены передовыми функциями, включая регулируемую высоту,
+								удобные ремни и подголовник, обеспечивая комфорт и стабильность
+								во время транспортировки. Носилки имеют легкую и прочную
+								структуру, которая обеспечивает маневренность и удобство
+								использования.
+							</h4>
 						</Card>
 					</div>
 					<div className="cards2">
 						<Card className="card card-container" title="БНП">
-							Card content
+							<p className="upper-text">БНП для подогрева пищи</p>
+							<Image
+								className="cardImage"
+								PreviewType={{ visible: false }}
+								src="https://storage.theoryandpractice.ru/tnp/uploads/image_unit/000/156/586/image/base_87716f252d.jpg"></Image>
+							<h4 className="cardText">
+								БНП - разработанное компанией «ЗинХим», предназначенное для
+								безопасного и эффективного подогрева пищи военного, медицинского
+								и туристического назначения. БНП не использует открытого огня,
+								что делает его безопасным для использования в любых условиях.
+								Устройство обладает высокой энергоэффективностью и компактным
+								размером, что позволяет легко транспортировать его в походах.
+							</h4>
 						</Card>
 						<Card className="card card-container" title="Тактический рюкзак">
-							Card content
+							<p className="upper-text">Рюкзак для военных и авантюристов</p>
+							<Image
+								className="cardImage"
+								PreviewType={{ visible: false }}
+								src="https://storage.theoryandpractice.ru/tnp/uploads/image_unit/000/156/586/image/base_87716f252d.jpg"></Image>
+							<h4 className="cardText">
+								Тактический рюкзак, разработанный «ЗинТек», является
+								инновационным продуктом, предназначенным для военных,
+								спортсменов и любителей активного отдыха. Рюкзак обладает
+								высокой прочностью, что позволяет надежно защитить содержимое от
+								повреждений. Он также оснащен удобными отделениями и системой
+								креплений, которые облегчает организацию и переноску всех
+								необходимых вещей в любых условиях.
+							</h4>
 						</Card>
 					</div>
 				</div>
+				<div class="center-container">
+					<a href="" target="_blank">
+						<div className="bottom-button">Заказать</div>
+					</a>
+				</div>
+
 				{/* <Slide left duration={1300}>
 					<div className="row education">
 						<div className="three columns header-col">
