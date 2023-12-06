@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/ZinTech/static/js/main.a915e83e.chunk.js",
-    "main.js.map": "/ZinTech/static/js/main.a915e83e.chunk.js.map",
+    "main.js": "/ZinTech/static/js/main.87d103fd.chunk.js",
+    "main.js.map": "/ZinTech/static/js/main.87d103fd.chunk.js.map",
     "runtime-main.js": "/ZinTech/static/js/runtime-main.c8f22ac6.js",
     "runtime-main.js.map": "/ZinTech/static/js/runtime-main.c8f22ac6.js.map",
-    "static/js/2.3012605d.chunk.js": "/ZinTech/static/js/2.3012605d.chunk.js",
-    "static/js/2.3012605d.chunk.js.map": "/ZinTech/static/js/2.3012605d.chunk.js.map",
+    "static/js/2.4d9e7dde.chunk.js": "/ZinTech/static/js/2.4d9e7dde.chunk.js",
+    "static/js/2.4d9e7dde.chunk.js.map": "/ZinTech/static/js/2.4d9e7dde.chunk.js.map",
     "static/js/3.5f6c0640.chunk.js": "/ZinTech/static/js/3.5f6c0640.chunk.js",
     "static/js/3.5f6c0640.chunk.js.map": "/ZinTech/static/js/3.5f6c0640.chunk.js.map",
     "index.html": "/ZinTech/index.html",
-    "static/js/2.3012605d.chunk.js.LICENSE.txt": "/ZinTech/static/js/2.3012605d.chunk.js.LICENSE.txt",
+    "static/js/2.4d9e7dde.chunk.js.LICENSE.txt": "/ZinTech/static/js/2.4d9e7dde.chunk.js.LICENSE.txt",
     "static/media/telegram.a75fda8d.svg": "/ZinTech/static/media/telegram.a75fda8d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c8f22ac6.js",
-    "static/js/2.3012605d.chunk.js",
-    "static/js/main.a915e83e.chunk.js"
+    "static/js/2.4d9e7dde.chunk.js",
+    "static/js/main.87d103fd.chunk.js"
   ]
 }
