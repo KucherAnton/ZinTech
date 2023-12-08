@@ -151,7 +151,7 @@ class Resume extends Component {
 					</div>
 				</div>
 				<div class="center-container">
-					<a href="" target="_blank">
+					<a href="https://forms.gle/zVKo2u8crZHLbvKu7">
 						<div className="bottom-button">Заказать</div>
 					</a>
 				</div>
