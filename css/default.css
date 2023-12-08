@@ -1314,13 +1314,15 @@ Img {
 	fill: #525252; /* Цвет заливки (замените на свой цвет) */
 	transition: fill 0.3s ease;
 	cursor: pointer;
-	margin-left: 1.5em;
 }
 
-.fa-vk .fa-github {
+.fa-vk .fa-github .fa-telegram {
 	font-size: 3rem;
 }
 
 .fa-telegram:hover {
 	fill: #ffffff; /* Цвет заливки при наведении (замените на свой цвет) */
+}
+
+.bnp {
 }
