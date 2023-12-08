@@ -22,6 +22,8 @@ class Resume extends Component {
 			'0067A5',
 			'42AAFF',
 			'6A5ACD',
+			'77DDE7',
+			'32127A',
 		];
 		let color = '#';
 
@@ -84,7 +86,7 @@ class Resume extends Component {
 							<Image
 								className="cardImage"
 								PreviewType={{ visible: false }}
-								src="https://storage.theoryandpractice.ru/tnp/uploads/image_unit/000/156/586/image/base_87716f252d.jpg"></Image>
+								src={process.env.PUBLIC_URL + '/images/1.jpg'}></Image>
 							<h4 className="cardText">
 								Унифицированная иммобилизационная медицинская шина,
 								разработанная «ЗинМед», представляет собой инновационное
@@ -101,7 +103,7 @@ class Resume extends Component {
 							<Image
 								className="cardImage"
 								PreviewType={{ visible: false }}
-								src="https://storage.theoryandpractice.ru/tnp/uploads/image_unit/000/156/586/image/base_87716f252d.jpg"></Image>
+								src={process.env.PUBLIC_URL + '/images/4.jpg'}></Image>
 							<h4 className="cardText">
 								Носилки, производимые компанией «ЗинТех», представляют собой
 								инновационное медицинское устройство, разработанное для
@@ -118,9 +120,9 @@ class Resume extends Component {
 						<Card className="card card-container" title="БНП">
 							<p className="upper-text">БНП для подогрева пищи</p>
 							<Image
-								className="cardImage"
+								className="cardImage bnp"
 								PreviewType={{ visible: false }}
-								src="https://storage.theoryandpractice.ru/tnp/uploads/image_unit/000/156/586/image/base_87716f252d.jpg"></Image>
+								src={process.env.PUBLIC_URL + '/images/2.jpg'}></Image>
 							<h4 className="cardText">
 								БНП - разработанное компанией «ЗинХим», предназначенное для
 								безопасного и эффективного подогрева пищи военного, медицинского
@@ -135,7 +137,7 @@ class Resume extends Component {
 							<Image
 								className="cardImage"
 								PreviewType={{ visible: false }}
-								src="https://storage.theoryandpractice.ru/tnp/uploads/image_unit/000/156/586/image/base_87716f252d.jpg"></Image>
+								src={process.env.PUBLIC_URL + '/images/3.jpg'}></Image>
 							<h4 className="cardText">
 								Тактический рюкзак, разработанный «ЗинТек», является
 								инновационным продуктом, предназначенным для военных,

@@ -23,9 +23,11 @@ class Footer extends Component {
 						<div className="twelve columns">
 							<ul className="social-links">
 								{networks}
-								<a href="https://t.me/zincorp" target="_blank">
-									<TelegramIcon className="fa fa-telegram"></TelegramIcon>
-								</a>
+								<li>
+									<a href="https://t.me/zincorp" target="_blank">
+										<TelegramIcon className="fa fa-telegram"></TelegramIcon>
+									</a>
+								</li>
 							</ul>
 
 							<ul className="copyright">

@@ -58,7 +58,7 @@ class Contact extends Component {
 					<div className="row section-head">
 						<div className="two columns header-col">
 							<h1>
-								<span>Get In Touch.</span>
+								<span>Контактная форма</span>
 							</h1>
 						</div>
 
@@ -170,25 +170,32 @@ class Contact extends Component {
 								<ul id="twitter">
 									<li>
 										<span>
-											This is Photoshop's version of Lorem Ipsum. Proin gravida
-											nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
-											quis bibendum auctor, nisi elit consequat ipsum
-											<a href="./">http://t.co/CGIrdxIlI3</a>
+											Привет! Добро пожаловать в наш Телеграм-канал! Тут вы
+											можете увидеть информацию о наших товарах, акциях, скидках
+											и про все остальное. Рады, что Вы выбираете нас!
+											<br />
+											<a href="https://t.me/zincorp/2">
+												https://t.me/zincorp/2
+											</a>
 										</span>
 										<b>
-											<a href="./">2 Days Ago</a>
+											<a href="./">Вчера в 10:56</a>
 										</b>
 									</li>
 									<li>
 										<span>
-											Sed ut perspiciatis unde omnis iste natus error sit
-											voluptatem accusantium doloremque laudantium, totam rem
-											aperiam, eaque ipsa quae ab illo inventore veritatis et
-											quasi
-											<a href="./">http://t.co/CGIrdxIlI3</a>
+											Всем привет! Мы приветствуем вас на странице паблика
+											ЗинКор’а - «Зиновьев Корпорация»! Здесь вы сможете увидеть
+											всю информацию о наших: Товарах, Акциях, Скидках, И обо
+											всём остальном. Большое спасибо, что выбираете нас! P.s.
+											За дополнительной информацией обращайтесь в личные
+											сообщения сообщества <br />
+											<a href="https://vk.com/wall-223699781_2">
+												https://vk.com/wall-223699781_2
+											</a>
 										</span>
 										<b>
-											<a href="./">3 Days Ago</a>
+											<a href="./">Вчера в 10:32</a>
 										</b>
 									</li>
 								</ul>
